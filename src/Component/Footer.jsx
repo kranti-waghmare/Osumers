@@ -5,7 +5,8 @@ import { ImTwitter } from 'react-icons/im';
 
 const Footer = () => {
     return (
-        <footer className="bg-blue-50 py-10">
+        <>
+               <footer className="bg-blue-50 py-10">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
@@ -59,20 +60,27 @@ const Footer = () => {
                         <div className="flex space-x-4">
 
 
-                            <div ><ImTwitter /></div>
-                            <div><FaFacebookF /></div>
-                            <div ><FaYoutube /></div>
-                            <div ><FaPinterestP /></div>
-                            <div ><FaWhatsapp /></div>
-                            <div ><FaInstagram /></div>
+                            <div ><ImTwitter  style={{ color : 'black' , borderRadius : '100%', padding : '10px', height : '100%' , width : '100%'}}/></div>
+                            <div><FaFacebookF  style={{color : 'black' , borderRadius : '100%', padding : '10px', height : '100%' , width : '100%'}}/></div>
+                            <div ><FaYoutube  style={{ color : 'black' , borderRadius : '100%', padding : '10px', height : '100%' , width : '100%'}}/></div>
+                            <div ><FaPinterestP  style={{ color : 'black' , borderRadius : '100%', padding : '10px', height : '100%' , width : '100%'}}/></div>
+                            <div ><FaWhatsapp  style={{ color : 'black' , borderRadius : '100%', padding : '10px', height : '100%' , width : '100%'}}/></div>
+                            <div ><FaInstagram  style={{ color : 'black' , borderRadius : '100%', padding : '10px', height : '100%' , width : '100%'}}/></div>
                         </div>
                     </div>
                 </div>
-                <div className="text-center text-gray-700 mt-10">
-                    © 2023 Osumare. All rights reserved.
-                </div>
+               
             </div>
+
+            
+           
         </footer>
+        <div className="text-center text-gray-700 mt-7 mb-5">
+         © 2023 Osumare. All rights reserved.
+     </div>
+       
+        </>
+      
     );
 };
 

@@ -21,7 +21,7 @@ const Services = () => (
         ))}
       </div>
       <div className="text-center mt-12">
-        <button className="bg-blue-600 text-white px-7 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition">
+        <button className="bg-blue-600 colorchange text-white px-7 py-2 rounded-full w-[13vw] p-3 h-[7.5vh] shadow-lg hover:bg-blue-700 transition">
           Get started
         </button>
       </div>

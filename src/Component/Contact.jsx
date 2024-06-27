@@ -18,7 +18,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-bold  text-gray-700"
                 >
                   Name
                 </label>
@@ -33,7 +33,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="phone"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm  font-bold  text-gray-700"
                 >
                   Phone
                 </label>
@@ -48,7 +48,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-bold text-gray-700"
                 >
                   Email
                 </label>
@@ -64,7 +64,7 @@ const Contact = () => {
             <div className="flex-1">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-bold  text-gray-700"
               >
                 Message
               </label>

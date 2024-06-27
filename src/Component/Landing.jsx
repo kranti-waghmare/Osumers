@@ -5,14 +5,14 @@ const Landing = () => {
         Driving Property Inquiries to Conversions
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
-        <div className="flex flex-col items-center text-center p-4">
-          <img src="v1.png" alt="v6 logo" className="mb-3 " />
+      <div className="flex flex-col items-center text-center p-4  ">
+          <img src="v1.png" alt="v6 logo" className="mb-3  rounded-full p-6 bgchange " />
           <h2 className="text-xl font-bold mb-2">
             Call-to-Action Optimization
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 font-Open Sans mt-3">
             Our carefully crafted CTAs guide potential buyers through the
-            property journey, enhancing engagement and conversion rates.
+            property journey, enhancing engagement  <br />and conversion rates.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ const Landing = () => {
         </div>
 
         <div className="flex flex-col items-center text-center p-4 ">
-          <img src="v4.png" alt="v3logo" className="mb-4" />
+          <img src="v4.png" alt="v3logo" className="mb-3 border-2 rounded-full p-6  bgchange"  />
           <h2 className="text-xl font-bold mb-2">Mobile-Friendly Experience</h2>
           <p className="text-gray-600">
             With a responsive design approach, our strategies ensure a seamless

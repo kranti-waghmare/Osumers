@@ -18,7 +18,7 @@ const Property = () => {
           <img style={{height : '50vh'}} src="done.png"  alt="" />
         </div>
 
-        <div className='border-2 gap-2 m-2 w-[35vw]'>
+        <div className=' gap-2 m-2 w-[35vw]'>
           <h2 className="text-2xl font-bold mb-2">
             Optimized Path to Property Purchase
           </h2>
@@ -30,7 +30,7 @@ const Property = () => {
             journey seamlessly, maximizing inquiries-turned-conversions with
             expert strategies.
           </p>
-          <button className="bg-blue-500 text-white py-2 px-4 rounded-full w-[15vw] mt-16">
+          <button className="bg-blue-500 text-white py-2 px-4 rounded-full w-[13vw] h-[7.5vh] mt-16">
             Get started
           </button>
         </div>

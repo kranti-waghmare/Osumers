@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 
 const Info = () => {
     const [qdata, setQdata] = useState({});
@@ -80,37 +82,15 @@ const Info = () => {
                 </div>
 
                 <div className="flex space-x-4 mt-8">
-                    <button className="p-2 bg-white rounded-full shadow-md">
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg" 
-                            className="h-6 w-6 text-blue-600" 
-                            fill="none" 
-                            viewBox="0 0 24 24" 
-                            stroke="currentColor"
-                        >
-                            <path 
-                                strokeLinecap="round" 
-                                strokeLinejoin="round" 
-                                strokeWidth="2" 
-                                d="M15 19l-7-7 7-7" 
-                            />
-                        </svg>
+                    <button className="p-2 bg-white rounded-full shadow-md ">
+                    <FaArrowLeft style={{backgroundColor : 'white' , color : 'blue'}} />
+                     
                     </button>
                     <button className="p-2 bg-white rounded-full shadow-md">
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg" 
-                            className="h-6 w-6 text-blue-600" 
-                            fill="none" 
-                            viewBox="0 0 24 24" 
-                            stroke="currentColor"
-                        >
-                            <path 
-                                strokeLinecap="round" 
-                                strokeLinejoin="round" 
-                                strokeWidth="2" 
-                                d="M9 5l7 7-7 7" 
-                            />
-                        </svg>
+                    
+                    <FaArrowRight style={{backgroundColor : 'white' , color : 'blue'}}  />
+                  
+                        
                     </button>
                 </div>
             </div>
@@ -118,7 +98,7 @@ const Info = () => {
             <section className="text-center">
                 <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
                 <p className="text-lg text-gray-600 mb-8">
-                    Pinpoint your audience with precision, ensuring your marketing efforts reach those most likely to
+                    Pinpoint your audience with precision, ensuring your marketing efforts reach <br /> those most likely to
                     engage with your brand.
                 </p>
                 <div className="max-w-2xl mx-auto">
@@ -130,7 +110,7 @@ const Info = () => {
                                     onClick={() => Handeldrop(idx)}
                                 >
                                     <span>{item.question}</span>
-                                    <span>{qdata[idx] ? '-' : '+'}</span>
+                                    <span>{qdata[idx] ? '-' : '^'}</span>
                                 </button>
                             </div>
                             {qdata[idx] && (
