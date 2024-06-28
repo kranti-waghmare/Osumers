@@ -13,28 +13,28 @@ const Navigation = () => (
     <div className="flex flex-wrap items-center justify-center">
       <div className="w-full md:w-1/2 px-4">
         <div className="border p-6 rounded-lg mb-6 shadow-md flex">
-          <div className="text-3xl mr-4"><img src="bard-fill.png" alt="img" /></div>
+          <div className="text-3xl mr-4"><img src="star.png" alt="img" /></div>
           <div>
             <h3 className="text-xl font-semibold mb-2">Market Trends Analysis</h3>
             <p>Predictive insights to guide real estate strategies.</p>
           </div>
         </div>
         <div className="border p-6 rounded-lg mb-6 shadow-md flex">
-          <div className="text-3xl mr-4"><img src="mtwo.png" alt="img" /></div>
+          <div className="text-3xl mr-4"><img src="butterfly.png" alt="img" /></div>
           <div>
             <h3 className="text-xl font-semibold mb-2">Targeted Buyer Persona</h3>
             <p>Understand and connect with your ideal property buyers.</p>
           </div>
         </div>
         <div className="border p-6 rounded-lg mb-6 shadow-md flex">
-          <div className="text-3xl mr-4"><img src="mthree.png" alt="img" /></div>
+          <div className="text-3xl mr-4"><img src="right.png" alt="img" /></div>
           <div>
             <h3 className="text-xl font-semibold mb-2">Competitor Insights</h3>
             <p>Stand out in the property market with informed strategies.</p>
           </div>
         </div>
         <div className="border p-6 rounded-lg mb-6 shadow-md flex">
-          <div className="text-3xl mr-4"><img src="mfour.png" alt="img" /></div>
+          <div className="text-3xl mr-4"><img src="searchlogo.png" alt="img" /></div>
           <div>
             <h3 className="text-xl font-semibold mb-2">Visual Content Appeal</h3>
             <p>Captivate buyers with appealing visuals and immersive experiences.</p>
@@ -43,7 +43,7 @@ const Navigation = () => (
       </div>
       <div className="w-full md:w-1/2 px-4 flex justify-center">
         <img
-          src="mfive.png"
+          src="chart.png"
           alt="Placeholder"
           className="rounded-lg shadow-md"
         />

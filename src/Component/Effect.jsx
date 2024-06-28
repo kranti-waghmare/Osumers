@@ -6,8 +6,8 @@ const Action = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
         <div className="flex flex-col items-center text-center p-4">
           <img
-            src="v1.png"
-            alt="v6 logo"
+            src="finger.png"
+            alt="finger logo"
             className="mb-3 border-2 rounded-full p-6  bgchange"
           />
           <h2 className="text-xl font-bold mb-2">Effective CTAs</h2>
@@ -18,7 +18,7 @@ const Action = () => {
         </div>
 
         <div className="flex flex-col items-center text-center p-4 ">
-          <img src="v2.png" alt="v2logo" className="mb-3  " />
+          <img src="logo.png" alt="logo" className="mb-3  " />
           <h2 className="text-xl font-bold mb-2">
             Conversion-Optimized Landing Pages
           </h2>
@@ -29,7 +29,7 @@ const Action = () => {
         </div>
 
         <div className="flex flex-col items-center text-center p-4  ">
-          <img src="v3.png" alt="logov3" className="mb-4 " />
+          <img src="hand.png" alt="hand3" className="mb-4 " />
           <h2 className="text-xl font-bold mb-2">
             Trust Building with Social Proof
           </h2>
@@ -42,8 +42,8 @@ const Action = () => {
 
         <div className="flex flex-col items-center text-center p-4 ">
           <img
-            src="v4.png"
-            alt="v3logo"
+            src="circleboy.png"
+            alt="logo"
             className="mb-3 border-2 rounded-full p-6  bgchange"
           />
           <h2 className="text-xl font-bold mb-2">Mobile-First Success:</h2>

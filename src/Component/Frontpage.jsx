@@ -1,3 +1,5 @@
+
+
 const Landing = () => {
   return (
     <div className="flex flex-col items-center justify-center py-8">
@@ -6,7 +8,7 @@ const Landing = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
       <div className="flex flex-col items-center text-center p-4  ">
-          <img src="v1.png" alt="v6 logo" className="mb-3  rounded-full p-6 bgchange " />
+          <img src="hand.png" alt="handlogo" className="mb-3  rounded-full p-6 bgchange " />
           <h2 className="text-xl font-bold mb-2">
             Call-to-Action Optimization
           </h2>
@@ -17,7 +19,7 @@ const Landing = () => {
         </div>
 
         <div className="flex flex-col items-center text-center p-4 ">
-          <img src="v2.png" alt="v2logo" className="mb-3  " />
+          <img src="logo.png" alt="logo" className="mb-3  " />
           <h2 className="text-xl font-bold mb-2">Landing Page Efficiency</h2>
           <p className="text-gray-600">
             Tailored landing pages are designed for maximum property lead
@@ -27,7 +29,7 @@ const Landing = () => {
         </div>
 
         <div className="flex flex-col items-center text-center p-4  ">
-          <img src="v3.png" alt="logov3" className="mb-4 " />
+          <img src="finger.png" alt="logo3" className="mb-4 rounded-full p-6 bgchange"  />
           <h2 className="text-xl font-bold mb-2">Social Proof Utilization</h2>
           <p className="text-gray-600">
             Leverage the power of testimonials and success stories from
@@ -37,7 +39,7 @@ const Landing = () => {
         </div>
 
         <div className="flex flex-col items-center text-center p-4 ">
-          <img src="v4.png" alt="v3logo" className="mb-3 border-2 rounded-full p-6  bgchange"  />
+          <img src="circleboy.png" alt="vlogo" className="mb-3 border-2 rounded-full p-6  bgchange"  />
           <h2 className="text-xl font-bold mb-2">Mobile-Friendly Experience</h2>
           <p className="text-gray-600">
             With a responsive design approach, our strategies ensure a seamless

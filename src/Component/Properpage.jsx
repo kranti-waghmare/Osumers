@@ -15,7 +15,7 @@ const Property = () => {
 
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div className="  rounded-lg p-6 w-11/12 md:w-2/3 ml-16 lg:w-1/2 h-[12vh]">
-          <img style={{height : '50vh'}} src="done.png"  alt="" />
+          <img style={{height : '50vh'}} src="search.png"  alt="" />
         </div>
 
         <div className=' gap-2 m-2 w-[35vw]'>

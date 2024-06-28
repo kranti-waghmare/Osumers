@@ -1,11 +1,12 @@
 import React from 'react'
-import  Main from './Component/Main'
+import  Main from './Component/Origin'
+import Origin from './Component/Origin'
 
 
 function App() {
   return (
     <>
-    <Main/>
+    <Origin/>
     
     </>
   )

@@ -1,11 +1,11 @@
 import React from "react";
-import Services from "./Services";
+import Services from "./Feature";
 import Navigation from "./Navigation";
-import Property from "./Property";
-import Landing from "./Landing";
-import Info from "./Info";
+import Property from "./Properpage";
+import Landing from "./Frontpage";
+import Info from "./Employee";
 import Footer from "./Footer";
-import Action from "./Action";
+import Action from "./Effect";
 import Contact from "./Contact";
 
 function Main() {
@@ -15,7 +15,7 @@ function Main() {
         <div className="flex bg-white-600 h-16 w-full items-center p-4">
           <div className="flex items-center">
             <img
-              src="Osumarelogo.png"
+              src="osumlogo.png"
               alt="Osumare logo"
               className="h-16 w-auto"
             />
@@ -52,7 +52,7 @@ function Main() {
 
         <div className="flex items-center justify-center mt-9">
           <img
-            src="wemakem.png"
+            src="homelogo.png"
             alt="wemakelogo"
             style={{ height: "20rem", width: "30rem" }}
           />
@@ -73,7 +73,7 @@ function Main() {
           }}
         >
           <img
-            src="Ldesign.png"
+            src="setting.png"
             alt="Landing Logo"
             style={{ width: "19rem", height: "13rem" }}
           />

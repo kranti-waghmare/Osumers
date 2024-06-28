@@ -39,8 +39,8 @@ const Info = () => {
 
 
                             <img 
-                                src="formal.png" 
-                                alt="faceimage" 
+                                src="empl.png" 
+                                alt="employee" 
                                 className="rounded-lg object-cover w-full h-full"
                             />
 
@@ -69,7 +69,7 @@ const Info = () => {
                     <div className="md:ml-6 flex flex-col items-center md:items-start text-center md:text-left">
                         <div className="flex items-center mb-2">
                             <img 
-                                src="formal.png" 
+                                src="empl.png" 
                                 alt="Tabish Khan" 
                                 className="rounded-full w-10 h-10 object-cover mr-2"
                             />
