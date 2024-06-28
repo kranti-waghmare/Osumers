@@ -1,5 +1,4 @@
 import React from 'react'
-import  Main from './Component/Origin'
 import Origin from './Component/Origin'
 
 

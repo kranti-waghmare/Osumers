@@ -11,15 +11,18 @@ import Contact from "./Contact";
 function Main() {
   return (
     <>
-      <div className="mt-10 ml-20 mr-20 ">
-        <div className="flex bg-white-600 h-16 w-full items-center p-4">
+      <div className="mt-10 ml-20 mr-20 relative">  
+        <div className="flex bg-white-600 h-16 w-full items-center p-4" ><img src="bg.png" style={{position : "absolute", marginTop : '200px', opacity : '.5'}} alt="" />
+       
           <div className="flex items-center">
+         
             <img
               src="osumlogo.png"
               alt="Osumare logo"
               className="h-16 w-auto"
             />
           </div>
+         
           <div className="ml-auto text-black pl-14 h-[6vh] border-2 border-black p-2 red rounded-full w-[15vw]">
             Contact Us
           </div>
@@ -54,7 +57,7 @@ function Main() {
           <img
             src="homelogo.png"
             alt="wemakelogo"
-            style={{ height: "20rem", width: "30rem" }}
+            style={{ height: "20rem", zIndex : '3' , width: "30rem"  }}
           />
         </div>
         <br />

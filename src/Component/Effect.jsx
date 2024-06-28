@@ -60,6 +60,7 @@ const Action = () => {
           width: "25rem",
           justifyContent: "center",
           alignItems: "center",
+          
         }}
       >
         <h1 className="text-2xl ml-[30%] font-bold mb-4">
